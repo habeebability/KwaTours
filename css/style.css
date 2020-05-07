@@ -27,7 +27,7 @@ body{
     left: 40px;
 }
 .logo {
-    height: 35px;
+    height: 40px;
 }
 .text-box {
     position: absolute;
@@ -86,7 +86,8 @@ body{
 }
 @keyframes BottomIn{
     0%{
-        transform: translateY(50px);
+        opacity: 0;
+        transform: translateY(30px);
     }
     
     100%{
@@ -136,8 +137,8 @@ body{
     opacity: 0;
 }
 .btn-animated {
-    animation-name: BottomIn;
-    animation-duration: 3s;
+    animation: BottomIn .5s ease-out .75s;
+    animation-fill-mode: backwards;
 }
 
 

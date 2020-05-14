@@ -1,0 +1,23 @@
+{
+  "name": "kwatours",
+  "version": "1.0.0",
+  "description": "tourist website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habeebability/KwaTours.git"
+  },
+  "author": "habeeb ability",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habeebability/KwaTours/issues"
+  },
+  "homepage": "https://github.com/habeebability/KwaTours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
